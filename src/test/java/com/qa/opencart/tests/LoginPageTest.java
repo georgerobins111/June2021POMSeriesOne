@@ -45,7 +45,7 @@ public class LoginPageTest extends BaseTest {
 		Assert.assertTrue(loginPage.isForgotPwdLinkExist());
 	}
 	
-	@Description("login page test with username and password.....")
+	@Description("login page test with username and password into jenkin.....")
 	@Severity(SeverityLevel.BLOCKER)
 	@Test(priority = 4)
 	public void loginTest() {
